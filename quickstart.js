@@ -7,11 +7,11 @@ var spawn = require("child_process").spawn;
 process.stdin.setEncoding('utf8');
 
 //VALUE VARIABLES
-var streamBroadcastId ="m65M36EcirQ";
-var streamBroadcastChatId="Cg0KC202NU0zNkVjaXJR";
-var streamLivestreamId="VskpEaXzFmUFGdsvsa9VNg1458379494865656";
+var streamBroadcastId ;
+var streamBroadcastChatId;
+var streamLivestreamId;
 var globalauth;
-var streamNextPageToken="CNSz8fO4KhDpu6n3uCo";
+var streamNextPageToken;
 var url = 'https://api.twitch.tv/kraken/streams/';
 var donateLink ='https://www.twitchalerts.com/donate/'
 var linkurl="https://www.twitch.tv/"
